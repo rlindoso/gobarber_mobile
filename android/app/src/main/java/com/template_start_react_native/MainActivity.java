@@ -1,4 +1,4 @@
-package com.template_start_react_native;
+package com.gobarber_mobile;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "template_start_react_native";
+    return "gobarber_mobile";
   }
 }
