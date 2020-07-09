@@ -1,8 +1,16 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { Text } from 'react-native';
+import { StatusBar } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import Routes from './routes';
 
 import './config/ReactotronConfig';
 
-export default function App() {
-  return <Text>Teste</Text>;
+export default function navinext() {
+  return (
+    <NavigationContainer>
+      <StatusBar barStyle="light-content" />
+      <Routes />
+    </NavigationContainer>
+  );
 }
